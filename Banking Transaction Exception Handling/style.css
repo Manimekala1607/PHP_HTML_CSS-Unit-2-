@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 40px;
+    font-family: Arial, sans-serif;
+    background: #fff7ed;
+}
+
+.container {
+    width: 80%;
+    max-width: 700px;
+    margin: auto;
+    padding: 30px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+h1 {
+    text-align: center;
+    color: #c2410c;
+}
+
+.container > p {
+    text-align: center;
+    color: #666;
+}
+
+label {
+    display: block;
+    margin-top: 18px;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #9a3412;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #fdba74;
+    border-radius: 7px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #c2410c;
+}
+
+button {
+    width: 100%;
+    padding: 13px;
+    margin-top: 25px;
+    background: #c2410c;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #ea580c;
+}
+
+.success {
+    margin-top: 25px;
+    padding: 20px;
+    background: #dcfce7;
+    border-left: 6px solid #16a34a;
+    border-radius: 8px;
+}
+
+.success h2 {
+    color: #15803d;
+}
+
+.error {
+    margin-top: 25px;
+    padding: 20px;
+    background: #fee2e2;
+    border-left: 6px solid #dc2626;
+    border-radius: 8px;
+}
+
+.error h2 {
+    color: #dc2626;
+}
+
+.back {
+    display: block;
+    width: fit-content;
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    background: #c2410c;
+    color: white;
+    text-decoration: none;
+    border-radius: 7px;
+}
