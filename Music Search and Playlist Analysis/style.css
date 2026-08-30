@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 40px;
+    font-family: Arial, sans-serif;
+    background: #fff0f5;
+}
+
+.container {
+    width: 80%;
+    max-width: 700px;
+    margin: auto;
+    padding: 30px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+h1 {
+    text-align: center;
+    color: #c2185b;
+}
+
+.container > p {
+    text-align: center;
+    color: #666;
+}
+
+label {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #880e4f;
+}
+
+input {
+    width: 100%;
+    padding: 13px;
+    border: 2px solid #f48fb1;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #c2185b;
+}
+
+button {
+    width: 100%;
+    padding: 13px;
+    margin-top: 25px;
+    border: none;
+    border-radius: 8px;
+    background: #c2185b;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #ad1457;
+}
+
+.song-card {
+    margin-top: 25px;
+    padding: 25px;
+    background: #fce4ec;
+    border-left: 6px solid #c2185b;
+    border-radius: 10px;
+}
+
+.song-card h2 {
+    color: #c2185b;
+    margin-top: 0;
+}
+
+.song-card p {
+    color: #333;
+}
+
+.not-found {
+    margin-top: 25px;
+    padding: 20px;
+    background: #ffe4e4;
+    border-left: 6px solid #d32f2f;
+    border-radius: 8px;
+}
+
+.not-found h2 {
+    color: #d32f2f;
+}
+
+.total {
+    margin-top: 20px;
+    padding: 15px;
+    text-align: center;
+    background: #f8bbd0;
+    border-radius: 8px;
+}
+
+.back {
+    display: block;
+    width: fit-content;
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    background: #c2185b;
+    color: white;
+    text-decoration: none;
+    border-radius: 7px;
+}
